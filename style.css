@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Open+Sans");
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:sans-serif;
+    height:100vh;
+    background-color: hsla(150, 27%, 62%, 0.445);
+    font: size 24px;
+    position: relative;
+}
+.container
+{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width:450px;
+    background-color: rgb(255, 255, 255);
+    border-radius:18px;
+    text-align:center;
+    box-shadow: 1px 1px 13px rgb(0 0 0/10%);
+}
+h1
+{
+background-color: skyblue;
+padding-top: 10px;
+padding: 10px,50px,50px,50px;
+font-size: 30px;
+height: 50px;
+border-radius: 18px;
+}
+p
+{
+    color:rgba(85, 86, 87, 0.973);
+    font-size:19px;
+    
+}
+.control
+{
+    margin:25px 0;
+    font-size:19px;
+
+}
+input
+{
+    border:none;
+    outline: none;
+    text-align:center;
+    border-bottom:1px solid rgba(0, 119, 255, 0.973);
+    color:rgba(0, 119, 255, 0.973);
+    font-size:28px;
+    margin-top:20px;
+}
+select
+{
+    border:none;
+    outline: none;
+    text-align:center;
+    border:1px solid rgba(0, 119, 255, 0.973);
+    color:rgba(0, 119, 255, 0.973);
+    font-size:22px;
+    margin-top:30px;
+    padding:11px, 34px;
+    border-radius:34px;
+    width:75%;
+    height:50px;
+}
+#calculate
+{
+    color:white;
+    border:1 px solid;
+    font-size:20px;
+    border-radius: 25px;
+    padding: 14px 29px;
+    margin: 25px;
+    background-color:rgba(0, 119, 255, 0.973) ;
+}
+#calculate:hover
+{
+    color:rgba(0, 119, 255, 0.973);
+    border-color: rgba(2, 2, 2, 0.973);
+    background: rgb(255, 255, 255);
+}
+.totaltip
+{
+    background-color:skyblue;
+    border-radius:16px;
+    padding:15px 0 15px;
+}
+p.tip{
+    font-size: 35px;
+    margin: top 10px;
+    color:black;
+}
